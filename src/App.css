@@ -1,4 +1,4 @@
-.about__title::after {
+.title__line::after {
   content: " ";
   position: absolute;
   left: 0;
