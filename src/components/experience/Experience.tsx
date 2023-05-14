@@ -1,8 +1,8 @@
 export const Experience = () => {
     return (
-        <div className="">
+        <div id="experience-section" className="">
             <div className="xl:container mx-auto p-4">
-                <div className="flex justify-center mt-12">
+                <div className="flex justify-center mt-8">
                     <h2 className="text-3xl font-medium text-[#282828] title__line relative">Experience</h2>
                 </div>
                 <div className="grid grid-cols-2 gap-12 mt-10 px-16">

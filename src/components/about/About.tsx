@@ -1,6 +1,6 @@
 export const About = (): JSX.Element => {
     return (
-        <div className="bg-gradient-to-b from-[#ff94e0] to-white">
+        <div id="about-section" className="bg-gradient-to-b from-[#ff94e0] to-white">
             <div className="xl:container mx-auto px-4 py-16">
                 <div className="rounded-md bg-slate-50 shadow-xl p-8">
                     <h2 className="text-3xl font-medium text-[#282828] title__line relative">About me</h2>

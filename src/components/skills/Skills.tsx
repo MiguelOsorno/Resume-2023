@@ -1,6 +1,6 @@
 export const Skills = () => {
     return (
-        <div>
+        <div id="skills-section">
             <div className="xl:container mx-auto p-4">
                 <div className="rounded-md bg-slate-50 shadow-xl overflow-hidden">
                     <div className="flex justify-center bg-[#61DBFB] px-8 py-4">

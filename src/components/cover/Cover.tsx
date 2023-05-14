@@ -1,32 +1,17 @@
 
-export const Cover = (): JSX.Element => {
+interface Props {
+    coverRef: React.MutableRefObject<null | HTMLDivElement>
+}
+
+export const Cover = ({ coverRef }: Props): JSX.Element => {
     return (
-        <div className="h-[450px] relative bg-[#282828]">
+        <div ref={coverRef} className="h-[450px] relative bg-[#282828]">
             {/* <img className="h-full w-full object-cover absolute" src="/blackpink-bg.jpg" alt="" />
             <div className="absolute h-full w-full" style={{
                 backgroundColor: 'rgba(0,0,0,.6)'
             }}>
             </div> */}
-            <div className="z-10 h-full relative flex flex-col">
-                <nav className="xl:container mx-auto p-4">
-                    <ul className="w-full flex justify-end space-x-4 text-white">
-                        <li>
-                            <a className="relative navigation__link" href="#about">
-                                about
-                            </a>
-                        </li>
-                        <li>
-                            <a className="relative navigation__link" href="#skills">
-                                skills
-                            </a>
-                        </li>
-                        <li>
-                            <a className="relative navigation__link" href="#experience">
-                                experience
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+            <div className="h-full relative flex flex-col">
                 <div className="flex-1 flex justify-center items-center">
                     <div className="flex flex-col">
                         <div className="flex justify-center mb-6">
