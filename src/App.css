@@ -11,6 +11,10 @@ html {
   background: #ff76d8;
 }
 
+.title__line--width-65::after {
+  width: 65px;
+}
+
 .navigation__link::after {
   content: " ";
   position: absolute;
