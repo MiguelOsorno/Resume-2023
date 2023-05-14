@@ -1,7 +1,10 @@
 export const Skills = () => {
     return (
-        <div id="skills-section">
+        <div id="skills-section" className="mt-4">
             <div className="xl:container mx-auto p-4">
+                <div className="flex justify-center py-10">
+                    <h2 className="text-3xl font-medium text-[#282828] title__line relative">Skills</h2>
+                </div>
                 <div className="rounded-md bg-slate-50 shadow-xl overflow-hidden">
                     <div className="flex justify-center bg-[#61DBFB] px-8 py-4">
                         <h3 className="text-3xl font-medium text-white">Front-End</h3>
