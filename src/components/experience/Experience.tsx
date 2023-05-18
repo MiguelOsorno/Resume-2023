@@ -2,12 +2,12 @@ import { motion } from 'framer-motion'
 
 export const Experience = () => {
     return (
-        <div id="experience-section" className="">
-            <div className="xl:container mx-auto p-4">
-                <div className="flex justify-center pt-10">
+        <div id="experience-section" className="overflow-hidden">
+            <div className="xl:container mx-auto py-6 px-4">
+                <div className="flex justify-center md:pt-10">
                     <h2 className="text-3xl font-medium text-[#282828] title__line relative">Experience</h2>
                 </div>
-                <div className="grid grid-cols-2 gap-12 mt-10 px-16">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:gap-6 lg:gap-12 mt-10 md:px-8 lg:px-16">
                     <motion.div
                         initial="offscreen"
                         whileInView="onscreen"
@@ -40,8 +40,8 @@ export const Experience = () => {
                             </div>
                         </motion.div>
                     </motion.div>
-                    <div></div>
-                    <div></div>
+                    <div className='hidden md:block'></div>
+                    <div className='hidden md:block'></div>
                     <motion.div
                         initial="offscreen"
                         whileInView="onscreen"

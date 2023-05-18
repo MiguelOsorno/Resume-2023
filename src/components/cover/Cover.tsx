@@ -5,7 +5,7 @@ interface Props {
 
 export const Cover = ({ coverRef }: Props): JSX.Element => {
     return (
-        <div ref={coverRef} className="h-[450px] relative bg-[#282828]">
+        <div id="home-section" ref={coverRef} className="h-[450px] relative bg-[#282828]">
             <div className="h-full relative flex flex-col">
                 <div className="flex-1 flex justify-center items-center">
                     <div className="flex flex-col">
