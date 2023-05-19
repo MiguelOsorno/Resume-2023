@@ -29,7 +29,7 @@ export const Experience = () => {
                         }}>
                             <div className="flex items-center space-x-2">
                                 <div className="bg-[#191827] h-8 w-8 flex justify-center items-center rounded-full overflow-hidden">
-                                    <img className="w-full h-full object-cover" src="/fuego-logo.jpeg" alt="mipriv-logo" />
+                                    <img className="w-full h-full object-cover" src="./fuego-logo.jpeg" alt="mipriv-logo" />
                                 </div>
                                 <h4>Fuego</h4>
                             </div>
@@ -63,7 +63,7 @@ export const Experience = () => {
                         }}>
                             <div className="flex items-center space-x-2">
                                 <div className="bg-[#191827] h-8 w-8 flex justify-center items-center rounded-full overflow-hidden">
-                                    <img className="w-full h-full object-cover" src="/priv.png" alt="mipriv-logo" />
+                                    <img className="w-full h-full object-cover" src="./priv.png" alt="mipriv-logo" />
                                 </div>
                                 <h4>Priv Social Inc.</h4>
                             </div>
@@ -97,7 +97,7 @@ export const Experience = () => {
                         }}>
                             <div className="flex items-center space-x-2">
                                 <div className="bg-[#191827] h-8 w-8 flex justify-center items-center rounded-full overflow-hidden">
-                                    <img className="w-full h-full object-cover" src="/stackcode.jpeg" alt="mipriv-logo" />
+                                    <img className="w-full h-full object-cover" src="./stackcode.jpeg" alt="mipriv-logo" />
                                 </div>
                                 <h4>Stackcode</h4>
                             </div>
