@@ -4,7 +4,7 @@ interface Props {
 
 export const Navigation = ({ coverIsIntersecting }: Props) => {
     return (
-        <div className={`z-10 fixed bottom-0 left-0 right-0 bg-[#282828] ${coverIsIntersecting ? 'md:bg-[#282828]' : 'md:bg-transparent md:backdrop-blur-[2px]'} md:right-[auto] md:left-[auto] md:bottom-[auto] md:sticky md:top-0`}>
+        <div className={`z-10 fixed bottom-0 left-0 right-0 bg-[#282828] ${coverIsIntersecting ? 'md:bg-[#282828]' : 'md:bg-transparent md:backdrop-blur-[3px]'} md:right-[auto] md:left-[auto] md:bottom-[auto] md:sticky md:top-0`}>
             <nav className="xl:container mx-auto p-4">
                 <ul className="w-full flex justify-evenly md:justify-end space-x-4 text-white">
                     <li className="flex md:hidden">
