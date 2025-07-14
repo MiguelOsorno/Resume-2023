@@ -19,11 +19,15 @@ export const Cover = ({ coverRef }: Props): JSX.Element => {
                         <h4 className="text-center text-white">
                             Fullstack Software Developer
                         </h4>
-                        {/* <div className="flex justify-center mt-4">
-                            <button type="button" className="bg-[#ff59c7] hover:bg-[#ff76d8] w-36 text-white font-bold py-2 px-4 rounded">
-                                Download CV
-                            </button>
-                        </div> */}
+                        <div className="flex justify-center mt-4">
+                            <a 
+                                href="/assets/miguel-osorno-cv.pdf" 
+                                className="bg-[#ff59c7] hover:bg-[#ff76d8] w-36 text-white font-bold py-2 px-4 rounded" 
+                                target="_blank" 
+                                rel="noopener noreferrer" download="">
+                                    Download CV
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="w-full flex justify-center -mb-4">
