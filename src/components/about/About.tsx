@@ -7,7 +7,7 @@ export const About = (): JSX.Element => {
                         About me
                     </h2>
                     <p className="mt-4">
-                        Hello I'm a fullstack developer, I have been a developer for more than 5 years 🤓.
+                        Hello I'm a fullstack developer, I have been a developer for more than 7 years 🤓.
                         I have worked with companies that are very different each other, for instance, 
                         I have worked with a consultory and I was in charge of developing some websites. 
                         After that I was working with a company about social network and I learned many things about this sector that is very interesting.

@@ -14,6 +14,52 @@ export const Experience = () => {
                         viewport={{ once: true, amount: 0.8 }} >
                         <motion.div className="rounded-md bg-slate-50 shadow-xl p-8" variants={{
                             offscreen: {
+                                x: 300,
+                                opacity: 0,
+                            },
+                            onscreen: {
+                                x: 0,
+                                opacity: 1,
+                                transition: {
+                                    type: "spring",
+                                    bounce: 0.4,
+                                    duration: 0.8
+                                }
+                            }
+                        }}>
+                            <div className="flex items-center space-x-2">
+                                <div className="bg-[#191827] h-8 w-8 flex justify-center items-center rounded-full overflow-hidden">
+                                    <img className="w-full h-full object-cover" src="./datoz-logo.jpeg" alt="datoz-logo" />
+                                </div>
+                                <h4>Datoz Oct 2024 - Currently</h4>
+                            </div>
+                            <p className="mt-4">Development of new features for a real estate applications.</p>
+                            <div className="mt-4">
+                                <ul className="list-disc">
+                                     <li>
+                                       Integration of LLMs with prompt/token optimization strategies that trimmed context usage by 20 % while keeping answers accurate.
+                                    </li>
+                                    <li>
+                                        Integration of analytics and tracking (Mixpanel) to drive UX decisions.
+                                    </li>
+                                    <li>
+                                        Development of new features for the internal application system.
+                                    </li>
+                                    <li>
+                                        Refined the UI layout and information hierarchy to make key metrics easier to scan and keep users oriented in complex workflows.
+                                    </li>
+                                </ul>
+                            </div>
+                        </motion.div>
+                    </motion.div>
+                    <div className='hidden md:block'></div>
+                    <div className='hidden md:block'></div>
+                    <motion.div
+                        initial="offscreen"
+                        whileInView="onscreen"
+                        viewport={{ once: true, amount: 0.8 }} >
+                        <motion.div className="rounded-md bg-slate-50 shadow-xl p-8" variants={{
+                            offscreen: {
                                 x: -300,
                                 opacity: 0,
                             },
@@ -29,19 +75,16 @@ export const Experience = () => {
                         }}>
                             <div className="flex items-center space-x-2">
                                 <div className="bg-[#191827] h-8 w-8 flex justify-center items-center rounded-full overflow-hidden"></div>
-                                <h4>Unknown April 2024 - Currently</h4>
+                                <h4>Freelance Oct 2024 - April 2025</h4>
                             </div>
-                            <p className="mt-4">Development of new features for a real estate applications.</p>
+                            <p className="mt-4">Development of new features for no-code site builder.</p>
                             <div className="mt-4">
                                 <ul className="list-disc">
                                     <li>
-                                        Development of new features for analytics application.
+                                      Added new modules to the internal low-code platform to cover fresh workflows without extra engineering effort.
                                     </li>
                                     <li>
-                                        Development of new features for internal application.
-                                    </li>
-                                    <li>
-                                        Integration of thirty parties.
+                                        Delivered theme-based style customization so teams can spin up pages with brand-consistent palettes in minutes.
                                     </li>
                                 </ul>
                             </div>
