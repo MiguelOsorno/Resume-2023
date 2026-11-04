@@ -35,7 +35,7 @@ export const Cover = ({ coverRef }: Props): JSX.Element => {
                         <li>
                             <a
                                 href="https://github.com/MiguelOsorno"
-                                target="_blank">
+                                target="_blank" rel="noopener noreferrer">
                                 <div className="h-10 w-10 justify-center items-center bg-[#282828] hover:bg-[#ff59c7] flex rounded-full text-white">
                                     <span className="text-2xl">
                                         <i className="fab fa-github"></i>
@@ -46,7 +46,7 @@ export const Cover = ({ coverRef }: Props): JSX.Element => {
                         <li >
                             <a
                                 href="https://www.linkedin.com/in/miguel-angel-osorno-linares-344b941aa/"
-                                target="_blank">
+                                target="_blank" rel="noopener noreferrer">
                                 <div className="h-10 w-10 justify-center items-center bg-[#282828] hover:bg-[#ff59c7] flex rounded-full text-white">
                                     <span className="text-2xl">
                                         <i className="fab fa-linkedin"></i>
@@ -65,7 +65,7 @@ export const Cover = ({ coverRef }: Props): JSX.Element => {
                         </li>
                         <li>
                             <a href="https://codepen.io/miguel_osorno"
-                                target="_blank">
+                                target="_blank" rel="noopener noreferrer">
                                 <div className="h-10 w-10 justify-center items-center bg-[#282828] hover:bg-[#ff59c7] flex rounded-full text-white">
                                     <span className="text-2xl">
                                         <i className="fab fa-codepen"></i>

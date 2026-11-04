@@ -119,7 +119,7 @@ export const Experience = () => {
                             </div>
                             <p className="mt-4">
                                 Built the apps for{' '}
-                                <a className="underline text-pink-500" href="https://www.kickstarter.com/projects/meticulous/meticulous-espresso/description" target="_blank">
+                                <a className="underline text-pink-500" href="https://www.kickstarter.com/projects/meticulous/meticulous-espresso/description" target="_blank" rel="noopener noreferrer">
                                 Meticulous
                                 </a>, a smart espresso machine that makes coffee in ways never seen before.
                             </p>
