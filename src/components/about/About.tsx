@@ -7,15 +7,19 @@ export const About = (): JSX.Element => {
                         About me
                     </h2>
                     <p className="mt-4">
-                        Hello I'm a fullstack developer, I have been a developer for more than 7 years 🤓.
-                        I have worked with companies that are very different each other, for instance, 
-                        I have worked with a consultory and I was in charge of developing some websites. 
-                        After that I was working with a company about social network and I learned many things about this sector that is very interesting.
-                        I was working with people that are creating a new espresso machine that will allows making coffee in ways never seen before.
-                        Now I am working in real estate intelligence platform.
+                        Hi, I'm a full-stack developer with 7+ years of experience building web products end to end,
+                        from polished, responsive interfaces to the APIs behind them 🤓.
                     </p>
-                    <p className="mt-4">I'm always learning new things to improve my skills 📓.
-                        <br/>I like playing video games with my friends, listen to music in my free time 🎮 🎶 and play the guitar 🎸.
+                    <p className="mt-4">
+                        I've worked across very different industries. I started at a software consultancy building websites
+                        and dashboards for clients, then helped grow a social network that connects creators with fans, and
+                        later built the software for Meticulous, a smart espresso machine that makes coffee in ways never seen before.
+                        Today I'm at Datoz, working on a real estate intelligence platform where I integrate LLMs and ship
+                        features that turn complex data into clear decisions.
+                    </p>
+                    <p className="mt-4">
+                        I'm always learning something new to sharpen my skills 📓. In my free time I play video games with
+                        my friends, listen to music 🎮 🎶 and play the guitar 🎸.
                     </p>
                 </div>
             </div>

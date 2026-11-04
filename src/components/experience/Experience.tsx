@@ -29,24 +29,24 @@ export const Experience = () => {
                         }}>
                             <div className="flex items-center space-x-2">
                                 <div className="bg-[#191827] h-8 w-8 flex justify-center items-center rounded-full overflow-hidden">
-                                    <img className="w-full h-full object-cover" src="./datoz-logo.jpeg" alt="datoz-logo" />
+                                    <img className="w-full h-full object-cover" src="./datoz-logo.jpg" alt="datoz-logo" />
                                 </div>
-                                <h4>Datoz Oct 2024 - Currently</h4>
+                                <h4>Datoz Oct 2024 - Present</h4>
                             </div>
-                            <p className="mt-4">Development of new features for a real estate applications.</p>
+                            <p className="mt-4">Building new features for a real estate intelligence platform.</p>
                             <div className="mt-4">
                                 <ul className="list-disc">
                                      <li>
-                                       Integration of LLMs with prompt/token optimization strategies that trimmed context usage by 20 % while keeping answers accurate.
+                                       Integrated LLMs with prompt and token optimization strategies, cutting context usage by 20% while keeping answers accurate.
                                     </li>
                                     <li>
-                                        Integration of analytics and tracking (Mixpanel) to drive UX decisions.
+                                        Implemented analytics and event tracking to drive product and UX decisions.
                                     </li>
                                     <li>
-                                        Development of new features for the internal application system.
+                                        Shipped new features for the internal operations application.
                                     </li>
                                     <li>
-                                        Refined the UI layout and information hierarchy to make key metrics easier to scan and keep users oriented in complex workflows.
+                                        Refined the UI layout and information hierarchy so key metrics are easier to scan and users stay oriented in complex workflows.
                                     </li>
                                 </ul>
                             </div>
@@ -75,16 +75,16 @@ export const Experience = () => {
                         }}>
                             <div className="flex items-center space-x-2">
                                 <div className="bg-[#191827] h-8 w-8 flex justify-center items-center rounded-full overflow-hidden"></div>
-                                <h4>Freelance Oct 2024 - April 2025</h4>
+                                <h4>Freelance Oct 2024 - Apr 2025</h4>
                             </div>
-                            <p className="mt-4">Development of new features for no-code site builder.</p>
+                            <p className="mt-4">Built new features for a no-code site builder.</p>
                             <div className="mt-4">
                                 <ul className="list-disc">
                                     <li>
-                                      Added new modules to the internal low-code platform to cover fresh workflows without extra engineering effort.
+                                      Added new modules to the low-code platform, enabling new workflows without extra engineering effort.
                                     </li>
                                     <li>
-                                        Delivered theme-based style customization so teams can spin up pages with brand-consistent palettes in minutes.
+                                        Delivered theme-based style customization so teams can launch brand-consistent pages in minutes.
                                     </li>
                                 </ul>
                             </div>
@@ -113,32 +113,32 @@ export const Experience = () => {
                         }}>
                             <div className="flex items-center space-x-2">
                                 <div className="bg-[#191827] h-8 w-8 flex justify-center items-center rounded-full overflow-hidden">
-                                    <img className="w-full h-full object-cover" src="./fuego-logo.jpeg" alt="fuego-logo" />
+                                    <img className="w-full h-full object-cover" src="./fuego-logo.jpg" alt="fuego-logo" />
                                 </div>
                                 <h4>Fuego Oct 2022 - Oct 2024</h4>
                             </div>
                             <p className="mt-4">
-                                In charge of Develop aplications to create expresso on ways never seen before. 
+                                Built the apps for{' '}
                                 <a className="underline text-pink-500" href="https://www.kickstarter.com/projects/meticulous/meticulous-espresso/description" target="_blank">
                                 Meticulous
-                                </a>
+                                </a>, a smart espresso machine that makes coffee in ways never seen before.
                             </p>
                             <div className="mt-4">
                                 <ul className="list-disc">
                                     <li>
-                                        Development of animations and transition to create a friendly and intuitive user interface between components and screens.
+                                        Designed animations and transitions for a smooth, intuitive experience across components and screens.
                                     </li>
                                     <li>
-                                        Integration of sockets to display Realtime data.
+                                        Integrated WebSockets to display real-time machine data.
                                     </li>
                                     <li>
-                                        Layout development for mobile, tablet and desktop.
+                                        Built responsive layouts for mobile, tablet and desktop.
                                     </li>
                                     <li>
-                                        Optimization of components to improve performance.
+                                        Optimized components to improve rendering performance.
                                     </li>
                                     <li>
-                                        Add GitHub actions configurations to deploy new package to NPM.
+                                        Set up GitHub Actions pipelines to publish packages to npm.
                                     </li>
                                 </ul>
                             </div>
@@ -167,19 +167,19 @@ export const Experience = () => {
                         }}>
                             <div className="flex items-center space-x-2">
                                 <div className="bg-[#191827] h-8 w-8 flex justify-center items-center rounded-full overflow-hidden"></div>
-                                <h4>Freelance January 2024 - March 2024</h4>
+                                <h4>Freelance Jan 2024 - Mar 2024</h4>
                             </div>
-                            <p className="mt-4">Development of new features for a MVP online marketplace.</p>
+                            <p className="mt-4">Built core features for an online marketplace MVP.</p>
                             <div className="mt-4">
                                 <ul className="list-disc">
                                     <li>
-                                        Development of shopping cart flow (CRUD for orders).
+                                        Implemented the shopping cart and order management flow.
                                     </li>
                                     <li>
-                                        Development of feed to list products availables.
+                                        Built the product feed to browse available items.
                                     </li>
                                     <li>
-                                        Development of order section (list of pending, paid and canceled orders).
+                                        Created the orders section to track pending, paid and canceled orders.
                                     </li>
                                 </ul>
                             </div>
@@ -212,26 +212,26 @@ export const Experience = () => {
                                 </div>
                                 <h4>Priv Social Inc Feb 2021 - Oct 2022</h4>
                             </div>
-                            <p className='mt-4'>Development of new website version and integration of new features.</p>
+                            <p className='mt-4'>Rebuilt the website and shipped new features for a social network that connects creators with fans.</p>
                             <div className="mt-4">
                                 <ul className="list-disc">
                                     <li>
-                                        Development of new version of website from scratch.
+                                        Rebuilt the website from scratch.
                                     </li>
                                     <li>
-                                        Development of landing-page that caused an increase of 20k USD in revenue every month to the platform.
+                                        Built a landing page that increased platform revenue by $20K USD per month.
                                     </li>
                                     <li>
-                                        Integration of payments processors such as Paypal, Conekta that caused an increase of 10% in revenue every month to the platform.
+                                        Integrated payment processors (PayPal, Conekta), increasing monthly revenue by 10%.
                                     </li>
                                     <li>
-                                        Development of new flows to allow new functionality that were not available until this new version of website (system of notifications)
+                                        Developed new flows that unlocked features unavailable in the previous version, such as a notification system.
                                     </li>
                                     <li>
-                                        Integration of thirty parties (intercom, google analytics, algolia)
+                                        Integrated third-party services (Intercom, Google Analytics, Algolia).
                                     </li>
                                     <li>
-                                        Configuration for new repositories (prettier, commitizen, semantic release)
+                                        Set up repository tooling and conventions (Prettier, Commitizen, semantic-release).
                                     </li>
                                 </ul>
                             </div>
@@ -260,23 +260,24 @@ export const Experience = () => {
                         }}>
                             <div className="flex items-center space-x-2">
                                 <div className="bg-[#191827] h-8 w-8 flex justify-center items-center rounded-full overflow-hidden">
-                                    <img className="w-full h-full object-cover" src="./stackcode.jpeg" alt="mipriv-logo" />
+                                    <img className="w-full h-full object-cover" src="./stackcode.jpg" alt="stackcode-logo" />
                                 </div>
-                                <h4>Stackcode Dic 2019 - Feb 2021</h4>
+                                <h4>Stackcode Dec 2019 - Feb 2021</h4>
                             </div>
-                           <div className="mt-4">
+                            <p className="mt-4">Built web apps and websites for clients at a software consultancy.</p>
+                            <div className="mt-4">
                                 <ul className="list-disc">
                                     <li>
-                                        Development of a dashboard for a restaurant that allows control over kinds of orders and users (CRUD for orders and clients).
+                                        Built a restaurant dashboard to manage orders and customers.
                                     </li>
                                     <li>
-                                        Development of websites to increase the scope over target users of business like optics, real estate. (using CMS like WordPress)
+                                        Built WordPress websites that helped businesses such as optical stores and real estate agencies reach more customers.
                                     </li>
                                     <li>
-                                        Development of website for a construction company (Responsive design, ajax integration to send information by emails.)
+                                        Built a responsive website for a construction company with AJAX-powered contact forms.
                                     </li>
                                     <li>
-                                        Development of layout for delivery website using Angular 8
+                                        Developed the front-end layout for a delivery website with Angular 8.
                                     </li>
                                 </ul>
                             </div>
